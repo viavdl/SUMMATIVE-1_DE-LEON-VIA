@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Summative Assessment</title>
+        <style>
+            table {
+                border: 1px solid black;
+                width: 100%;
+            }
+           
+            th, td {
+                border: 1px solid black;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            
+            input[type=text]{   
+        width: 50%;   
+        margin: 0.5px 0;  
+        padding: 6px 20px;   
+        display: inline-block;    
+        border: 2px solid #ccc; 
+        border-radius: 4px;  
+        box-sizing: border-box; 
+}  
+
+
+    input[type=pw]{   
+        width: 30%;   
+        margin: 0.5px 0;  
+        padding: 6px 20px;   
+        display: inline-block;    
+        border: 2px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box;
+}  
+
+
+    textarea {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+
+input[type=submit]{  
+        
+        display: inline-block;    
+        border: 2px solid #93a6cf; 
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: inset 0em 2em #93a6cf;
+}  
+
+        </style>
+    </head>
+    <body>
+        
+        <table>
+
+            <tr>
+                <th colspan="6" bgcolor=#99CCFF>INVENTORY SYSTEMS</th>
+            </tr>
+
+            <tr bgcolor = "silver">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Supplier</th>
+                <th>Date</th>
+                <th>Image</th>
+            </tr>
+
+            <tr>
+                <td>10001</td>
+                <td style="text-align:left;">Boy Bawang Adobo (pc)</td>
+                <td>1000</td>
+                <th rowspan="8" bgcolor ="gold">KSK</th>
+                <td rowspan="2">5/14/2019</td>
+                <td rowspan="8"> <img src="https://m.media-amazon.com/images/I/61-ppyPiEXL._AC_UF894,1000_QL80_.jpg" height="175" width="100"></td>
+            </tr>
+
+            <tr>
+                <td>10002</td>
+                <td style="text-align:left;">Boy Bawang Adobo (pack)</td>
+                <td>200</td>
+            </tr>
+
+            <tr bgcolor = "silver">
+                <td>10003</td>
+                <td style="text-align:left;">Boy Bawang Garlic (pc)</td>
+                <td>3000</td>
+                <td rowspan="2">5/15/2019</td>
+            </tr>
+
+            <tr bgcolor = "silver">
+                <td>10004</td>
+                <td style="text-align:left;">Boy Bawang Garlic (pack)</td>
+                <td><font color= "red">150</fontcolor></td>
+            </tr>
+
+            <tr>
+                <td>10005</td>
+                <td style="text-align:left;">Boy Bawang Spicy (pc)</td>
+                <td>4000</td>
+                <td rowspan="2">5/16/2019</td>
+            </tr>
+
+            <tr>
+                <td>10006</td>
+                <td style="text-align:left;">Boy Bawang Spicy (pack)</td>
+                <td>240</td>
+            </tr>
+
+            <tr>
+                <td bgcolor = "silver">10007</td>
+                <td bgcolor = "silver" style="text-align:left;">Boy Bawang BBQ (pc)</td>
+                <td bgcolor = "silver">3000</td>
+                <td bgcolor = "silver"rowspan="2">5/17/2019</td>
+            </tr>
+
+            <tr>
+                <td bgcolor = "silver">10008</td>
+                <td bgcolor = "silver" style="text-align:left;">Boy Bawang BBQ (pack)</td>
+                <td bgcolor = "silver">210</td>
+            </tr>
+        </table>
+
+    <br>
+        <label>Your Name*</label><br>
+        <form name = "Login Form" action = "login.php">
+        <input type = "text">
+    </form>
+
+    <br>
+        <label>Email*</label><br>
+        <form name = "Login Form" action = "login.php">
+        <input type = "text">
+    </form>
+
+    <br>
+        <label>Contact No.*</label><br>
+        <form name = "Login Form" action = "login.php">
+        <input type = "pw">
+    </form>
+    <br>
+        <label>Message</label><br>
+        <textarea></textarea>
+    </br>
+    
+        <label>Required field*</label><br>
+        <input style="color: white;" type="submit" value="Send">
+
+    </body>
+</html>
